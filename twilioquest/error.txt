@@ -1,0 +1,8 @@
+Executing script: D:\python_mefi1\python_mefi1\twilioquest\fizzbuzz.py
+Script arguments: -3000,7,6,100
+Output:
+  File "D:\python_mefi1\python_mefi1\twilioquest\fizzbuzz.py", line 10
+    elif item % 5 == 0:
+       ^
+SyntaxError: invalid syntax
+
