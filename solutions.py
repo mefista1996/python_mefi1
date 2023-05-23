@@ -177,3 +177,22 @@ print(f"{first_number} plus {second_number} equals {result_sum}")
 print(f"{first_number} minus {second_number} shows {result_difference}")
 print(f"{first_number} multiplied by {second_number} equals {result_product}")
 print(f"{first_number} divided by {second_number} equals {result_quotient}")
+
+
+#print multiple strings with adding a space
+
+string = "hello"
+int = int(10)
+space = " "
+
+list = []
+
+list.append(string*int)
+
+for x in list:
+    x = x[0:5]
+    x = x + space
+    list.clear()
+    list.append(x*int)
+    print(list)
+    break
